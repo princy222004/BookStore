@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{}
+            body{text-align: center;background-image: url("./img/th.jpg");background-size: cover;background-repeat: no-repeat}
+            td{color: brown;opacity: 1;font-size: 20px;width: 50%;height: 40px}
+            .center{margin-left: auto;margin-right: auto;opacity: 1}
+            .reg{background-color: green;font-size: 15px;cursor: pointer;width: 50%}
+            .regi{background-color: chocolate;font-size: 15px;cursor: pointer;width: 50%}
+            .ans{font-family: arial;width: 90%;height: 20px}
+        </style>
+    </head>
+    <body>
+        <form action="User_Registration" method="post">
+            <h1>User Registration Form</h1>
+            <table border="1" class="center">
+                <tr>
+                    <td>Enter Customer Name</td>
+                    <td><input type="text" name="cust_name" class="ans" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter Customer Address</td>
+                    <td><textarea name="cust_add" class="ans" cols="21" rows="3" placeholder="Enter Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Enter Mobile Number</td>
+                    <td><input type="text" name="cust_mob" class="ans" placeholder="Enter Mobile Number"></td>
+                </tr>
+                <tr>
+                    <td>Enter Email Id</td>
+                    <td><input type="email" class="ans" name="cust_email" placeholder="Enter Email Id"></td>
+                </tr>
+                <tr>
+                    <td>Enter User Name</td>
+                    <td><input type="text" class="ans" name="cust_user" placeholder="Enter username"></td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td><input type="password" class="ans" name="cust_pass" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td><input class="reg" type="submit" value="Submit"></td>
+                    <td><input class="regi" type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
